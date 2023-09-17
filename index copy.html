@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style copy.css ">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-do List <img src="images/icon.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <div class="date" id="date">
+            <!-- 날짜&요일 -->
+            </div>&nbsp;
+            <div class="time" id="time">
+                <!-- 현재 시간 --> 
+            </div> 
+            </h2>
+           
+            <div class="row">
+                <input type="text" id="input-box" placeholder="할 일을 적으세요.">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script copy.js"></script>
+</body>
+</html>

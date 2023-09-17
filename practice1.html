@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Span에 이미지 추가 (JavaScript)</title>
+</head>
+<body>
+    <span><span>
+    
+    <script>
+        // 이미지 요소를 동적으로 생성
+        var imgElement = document.createElement("img");
+        imgElement.src = "images/trash.png";
+        
+
+        // <span> 요소에 이미지 요소 추가
+        var spanElement = document.querySelector("span");
+        spanElement.appendChild(imgElement);
+    </script>
+</body>
+</html>
